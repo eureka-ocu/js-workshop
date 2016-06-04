@@ -1,0 +1,15 @@
+{
+  "name": "js-workshop-01",
+  "version": "1.0.0",
+  "description": "JS workshop @OCU",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eureka-ocu/js-workshop/01"
+  },
+  "author": "nishitaniyuki <yuki.nishitani85@gmail.com> (https://github.com/nishitaniyuki)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0"
+  }
+}
