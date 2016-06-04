@@ -1,4 +1,4 @@
-# JS勉強会
+# JavaScript勉強会@OCU
 
 ## Goal
 
