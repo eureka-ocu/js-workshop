@@ -28,7 +28,7 @@ $ ndenv global v6.2.0
 
 ### Atom
 
-特にこだわりがなければ、機能を足すのが簡単やから[Atom](https://atom.io)をオススメする。
+エディターは特にこだわりがなければ、機能を足すのが簡単やから[Atom](https://atom.io)をオススメする。
 
 [ここから](https://atom.io)インストール可。
 
@@ -57,8 +57,6 @@ $ ndenv global v6.2.0
 ## JSの文法基礎
 
 [babel](https://babeljs.io)を使いながら、[Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)を読んでいきやしょう。
-
-では、babelをさっそく起動して、ガシガシ読んでいこう。
 
 ```
 $ npm i
