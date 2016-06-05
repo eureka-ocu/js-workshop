@@ -9,7 +9,7 @@
 
 ### NodeJS
 
-まずは、ndenvをインストールするところから。
+まずは、[ndenv](https://github.com/riywo/ndenv)をインストールするところから。
 
 ```
 $ git clone https://github.com/riywo/ndenv ~/.ndenv
@@ -19,7 +19,7 @@ $ exec $SHELL -l
 $ git clone https://github.com/riywo/node-build.git $(ndenv root)/plugins/node-build
 ```
 
-次にNodeJS本体をインストール。
+次に[NodeJS](http://nodejs.jp/)本体をインストール。
 
 ```
 $ ndenv install v6.2.0
