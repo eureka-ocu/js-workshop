@@ -11,11 +11,22 @@
 
 まずは、[ndenv](https://github.com/riywo/ndenv)をインストールするところから。
 
+**bash**
 ```
 $ git clone https://github.com/riywo/ndenv ~/.ndenv
 $ echo 'export PATH="$HOME/.ndenv/bin:$PATH"' >> ~/.bash_profile
 $ echo 'eval "$(ndenv init -)"' >> ~/.bash_profile
 $ exec $SHELL -l
+$ git clone https://github.com/riywo/node-build.git $(ndenv root)/plugins/node-build
+```
+
+**tcsh**
+```
+$ git clone https://github.com/riywo/ndenv ~/.ndenv
+$ echo 'setenv NDENV_ROOT ~/.ndenv' >> ~/.tcshrc
+$ echo 'setenv PATH $NDENV_ROOT/bin:${PATH}' >> ~/.tcshrc
+$ echo 'ndenv rehash' >> ~/.tcshrc
+$ source ~/.tcshrc
 $ git clone https://github.com/riywo/node-build.git $(ndenv root)/plugins/node-build
 ```
 
