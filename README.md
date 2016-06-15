@@ -1,4 +1,4 @@
-# JavaScript勉強会@OCU
+# JavaScript勉強会@OCU() {
 
 ## Goal
 
@@ -17,3 +17,5 @@
 ## Organizer
 
 [Eureka](http://eureka-ocu.org)
+
+# };
