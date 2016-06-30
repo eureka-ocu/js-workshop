@@ -13,7 +13,7 @@
 
 1. Terminalを開く
 2. 以下をコピペ($より後の部分を・<somewhere>は適宜自分の環境に合わせる)
-3. index.jsができたら[ここ](https://github.com/eureka-ocu/js-workshop/tree/02-answer)に最終版があるので、今回はそれを写経しよう!(コメントは書かなくていいよ。)
+3. index.jsができたら[ここ](https://github.com/eureka-ocu/js-workshop/tree/02-answer/02/index.js)に最終版があるので、今回はそれを写経しよう!(コメントは書かなくていいよ。)
 4. `npm run start`してlocalhost:3000にアクセスして動けば完成!
 
 ```
