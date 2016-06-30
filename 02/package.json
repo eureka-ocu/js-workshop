@@ -1,0 +1,22 @@
+{
+  "name": "js-workshop-02",
+  "version": "1.0.0",
+  "description": "JS workshop @OCU",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eureka-ocu/js-workshop/02"
+  },
+  "author": "nishitani <yuki.nishitani85@gmail.com> (https://github.com/nishitaniyuki)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0"
+  }
+}
