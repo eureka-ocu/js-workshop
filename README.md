@@ -14,6 +14,7 @@
 - [Horie Kentaro](https://github.com/kentarohorie)
 - [Nishitani Yuki](https://github.com/nishitaniyuki)
 - [Deguchi Daiki](https://github.com/deguuuuchi)
+- [Nakai Hiroki](https://github.com/drumgiovanni)
 
 ## Organizer
 
