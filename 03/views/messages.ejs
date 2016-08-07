@@ -1,0 +1,28 @@
+<div id="message-board" class="ui one stackable cards">
+  <% data.forEach(function(dt) { %>
+    <div class="ui card">
+      <div class="content">
+        <div class="meta">
+          <%= dt.message.createdAt %>
+          by
+          <%= dt.user.name %>
+        </div>
+      </div>
+      <div class="content">
+        <div class="description">
+          <%= dt.message.body %>
+        </div>
+      </div>
+      <div class="extra content">
+        <span class="left floated like">
+          <i class="like icon"></i>
+          Like
+        </span>
+        <span class="right floated star">
+          <i class="star icon"></i>
+          Fovorite
+        </span>
+      </div>
+    </div>
+  <% }) %>
+</div>
