@@ -1,0 +1,41 @@
+{
+  "name": "js-workshop-03",
+  "version": "1.0.0",
+  "description": "JS workshop @OCU",
+  "scripts": {
+    "start": "npm-run-all -s 'build' 'up'",
+    "build": "webpack",
+    "up": "babel-node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eureka-ocu/js-workshop.git"
+  },
+  "author": "nishitani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eureka-ocu/js-workshop/issues"
+  },
+  "homepage": "https://github.com/eureka-ocu/js-workshop#readme",
+  "dependencies": {
+    "ejs": "^2.5.1",
+    "express": "^4.14.0",
+    "isomorphic-fetch": "^2.2.1",
+    "moment": "^2.14.1",
+    "sequelize": "^3.23.6",
+    "sequelize-cli": "^2.4.0",
+    "socket.io": "^1.4.8",
+    "socket.io-client": "^1.4.8",
+    "webpack": "^1.13.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "eslint": "^3.2.2",
+    "eslint-config-airbnb-base": "^5.0.1",
+    "eslint-plugin-import": "^1.12.0",
+    "npm-run-all": "^2.3.0"
+  }
+}
