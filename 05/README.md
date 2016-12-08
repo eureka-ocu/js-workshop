@@ -8,6 +8,15 @@
 
 - モダンでホットなライブラリを使ってどんな感じでフロントエンドの開発を行うのか、雰囲気をつかむ
 
+## 作業の前に
+
+branchを切りましょう。branchについては[ここを参照](http://www.backlog.jp/git-guide/stepup/stepup1_1.html)。
+
+```
+$ git branch 05-<yourname>
+$ git checkout 05-<yourname>
+```
+
 ## ではでは
 
 今日は以下のコマンドたたいて、コードいじいじするだけ。解説は口頭でやっていきます。
@@ -16,6 +25,14 @@
 $ npm run start
 // or
 $ yarn run start
+```
+
+## 作業終わったら
+
+masterに戻っておきましょうね。
+
+```
+$ git checkout master
 ```
 
 ## 参考
